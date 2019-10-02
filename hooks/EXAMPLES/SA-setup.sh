@@ -1,4 +1,8 @@
 #!/bin/bash
+# 	hooks/EXAMPLES/SA-setup.sh  0.1.1.git-TEST-commit-#1.5.8  2019-10-02T11:23:22.160996-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.1.git-TEST-commit-#1.4-1-g942b6a0  
+# 	   updated test case 
+# 	TEST/program1.sh/SA-setup.sh  0.1.1.git-TEST-commit-#1.4.6  2019-10-02T11:21:30.027552-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.1.git-TEST-commit-#1.3  
+# 	   #1   added TEST case directory with default test cases 
 # 	hooks/EXAMPLES/SA-setup.sh  2.139.788  2019-09-27T17:14:37.351295-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.138  
 # 	   remove #34 for is command 
 # 	hooks/EXAMPLES/SA-setup.sh  2.138.787  2019-09-27T12:34:20.801732-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.137  
