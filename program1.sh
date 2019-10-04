@@ -1,4 +1,6 @@
 #!/bin/bash
+# 	program1.sh  0.1.2.dev.5.20  2019-10-04T12:04:51.759311-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.2.dev.4-2-ga6f9c70  
+# 	   program1.sh 
 # 	program1.sh  0.1.2.dev.4.17  2019-10-04T11:00:24.679783-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.2.dev.3  
 # 	   testing 
 # 	program1.sh  0.1.2.dev.3.16  2019-10-04T10:56:57.451315-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.2.dev.2  
@@ -24,3 +26,5 @@ echo   "branch development"
 echo   "hopefully this will help when using markit ; git push --set-upstream origin development"
 echo   "hopefully this will help ????"
 echo   "taht markit worked, was it git push --set-upstream origin development"
+echo   "that markit also worked"
+echo   "merged README from master with git pull origin master" 
