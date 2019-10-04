@@ -1,8 +1,8 @@
 #!/bin/bash
-# 	hooks/EXAMPLES/SA-cleanup.sh  0.1.1.git-TEST-commit-#1.5.8  2019-10-02T11:23:22.099383-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.1.git-TEST-commit-#1.4-1-g942b6a0  
-# 	   updated test case 
-# 	TEST/program1.sh/SA-cleanup.sh  0.1.1.git-TEST-commit-#1.4.6  2019-10-02T11:21:29.971527-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.1.git-TEST-commit-#1.3  
-# 	   #1   added TEST case directory with default test cases 
+# 	hooks/EXAMPLES/SA-cleanup.sh  2.198.859  2019-10-02T12:46:36.769935-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.197  
+# 	   hooks/EXAMPLES/SA-cleanup.sh   remove -v option for rm 
+# 	hooks/EXAMPLES/SA-cleanup.sh  2.192.851  2019-10-02T12:14:57.960077-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.191  
+# 	   hooks/EXAMPLES/SA-shellcheck-001   incident with cp changed to cp -f 
 # 	hooks/EXAMPLES/SA-cleanup.sh  2.139.788  2019-09-27T17:14:37.216397-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.138  
 # 	   remove #34 for is command 
 # 	hooks/EXAMPLES/SA-cleanup.sh  2.138.787  2019-09-27T12:33:27.537389-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.137  
@@ -57,7 +57,7 @@ if [[ "${DEBUG}" == "1" ]] ; then new_message "${SCRIPT_NAME}" "${LINENO}" "DEBU
 #    Remove environment variables
 #  unset DEBUG
 #    Remove directories
-#  rmdir
+rm -rf tmp
 #    Remove output from previous run of test cases
 rm -f SA-*.test-case-output
 #    Remove temporary files
@@ -66,7 +66,7 @@ rm -f SA-*.test-case-output
 for k in $(ls -1 SA-*) ; do
   if [[ "${k}" != "SA-cleanup.sh" ]] ; then
     if [[ "${k}" != "SA-setup.sh" ]] ; then
-      { [ ! -L "${k}" ] || rm -v "${k}"; }  #  Remove files with symbolic link
+      { [ ! -L "${k}" ] || rm "${k}"; }  #  Remove files with symbolic link
     fi
   fi
 done
