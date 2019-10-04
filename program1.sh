@@ -1,4 +1,6 @@
 #!/bin/bash
+# 	program1.sh  0.1.2.dev.2.15  2019-10-04T10:39:24.801545-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.2.dev.1  
+# 	   updated program1.sh 
 # 	program1.sh  0.1.2.dev.1.14  2019-10-04T10:27:54.693874-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.2-2-ge640bee  
 # 	   program1.sh 
 # 	program1.sh  0.1.2.11  2019-10-02T11:32:15.601852-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit.git  uadmin  five-rpi3b.cptx86.com 0.1.1.git-TEST-commit-#1.5-2-gf105a16  
@@ -15,3 +17,4 @@ echo   "update file1"
 echo   "update file2"
 echo   "branches are merged into master"
 echo   "branch development'
+echo   "hopefully this will help when using markit ; git push --set-upstream origin development"
