@@ -7,3 +7,4 @@
 echo    "Hello world"
 echo    "create a new branch"
 echo    "what branch: remotes/origin/git-TEST-commit-#1"
+echo    "Test Mar2 2020"
